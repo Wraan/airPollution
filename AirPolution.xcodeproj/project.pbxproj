@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06208BB022390A860018741F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06208BAF22390A860018741F /* AppDelegate.swift */; };
+		06208BB222390A860018741F /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06208BB122390A860018741F /* InstructionsViewController.swift */; };
+		06208BB522390A860018741F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06208BB322390A860018741F /* Main.storyboard */; };
+		06208BB722390A870018741F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06208BB622390A870018741F /* Assets.xcassets */; };
+		06208BBA22390A870018741F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06208BB822390A870018741F /* LaunchScreen.storyboard */; };
+		06208BC222390D880018741F /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06208BC122390D880018741F /* ConfigurationViewController.swift */; };
+		06208BC422390E090018741F /* ReceivedDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06208BC322390E090018741F /* ReceivedDataViewController.swift */; };
+		06208BC722391D270018741F /* PickerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06208BC622391D270018741F /* PickerHandler.swift */; };
+		06208BCA2239223A0018741F /* DataReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06208BC92239223A0018741F /* DataReceiver.swift */; };
+		06AB35462254D04200554999 /* DataDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AB35452254D04200554999 /* DataDto.swift */; };
+		06AB35482254D1FF00554999 /* CurrentDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AB35472254D1FF00554999 /* CurrentDto.swift */; };
+		06AB354A2254D25C00554999 /* WeatherDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AB35492254D25C00554999 /* WeatherDto.swift */; };
+		06AB354C2254D26C00554999 /* PollutionDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AB354B2254D26C00554999 /* PollutionDto.swift */; };
+		06D2155922673C7A0078AE58 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D2155822673C7A0078AE58 /* NavigationViewController.swift */; };
+		06D2155C226745690078AE58 /* ConcetrationInfoDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D2155B226745690078AE58 /* ConcetrationInfoDto.swift */; };
+		06D3654D225DF15600B8FCC0 /* StatusDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3654C225DF15600B8FCC0 /* StatusDto.swift */; };
+		06D3654F225E069500B8FCC0 /* PollutionDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3654E225E069500B8FCC0 /* PollutionDataParser.swift */; };
+		06EDFB8C22426065002DEA54 /* ApiCallBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EDFB8B22426065002DEA54 /* ApiCallBuilder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06208BAC22390A860018741F /* AirPolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06208BAF22390A860018741F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06208BB122390A860018741F /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		06208BB422390A860018741F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06208BB622390A870018741F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06208BB922390A870018741F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06208BBB22390A870018741F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06208BC122390D880018741F /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		06208BC322390E090018741F /* ReceivedDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivedDataViewController.swift; sourceTree = "<group>"; };
+		06208BC622391D270018741F /* PickerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerHandler.swift; sourceTree = "<group>"; };
+		06208BC92239223A0018741F /* DataReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataReceiver.swift; sourceTree = "<group>"; };
+		06AB35452254D04200554999 /* DataDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDto.swift; sourceTree = "<group>"; };
+		06AB35472254D1FF00554999 /* CurrentDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDto.swift; sourceTree = "<group>"; };
+		06AB35492254D25C00554999 /* WeatherDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDto.swift; sourceTree = "<group>"; };
+		06AB354B2254D26C00554999 /* PollutionDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollutionDto.swift; sourceTree = "<group>"; };
+		06D2155822673C7A0078AE58 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationViewController.swift; path = ../NavigationViewController.swift; sourceTree = "<group>"; };
+		06D2155B226745690078AE58 /* ConcetrationInfoDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcetrationInfoDto.swift; sourceTree = "<group>"; };
+		06D3654C225DF15600B8FCC0 /* StatusDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusDto.swift; sourceTree = "<group>"; };
+		06D3654E225E069500B8FCC0 /* PollutionDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollutionDataParser.swift; sourceTree = "<group>"; };
+		06EDFB8B22426065002DEA54 /* ApiCallBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallBuilder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06208BA922390A850018741F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06208BA322390A850018741F = {
+			isa = PBXGroup;
+			children = (
+				06208BAE22390A860018741F /* AirPolution */,
+				06208BAD22390A860018741F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06208BAD22390A860018741F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06208BAC22390A860018741F /* AirPolution.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06208BAE22390A860018741F /* AirPolution */ = {
+			isa = PBXGroup;
+			children = (
+				06208BD4223928770018741F /* Model */,
+				06208BC8223921F70018741F /* Utilities */,
+				06208BC522391D0C0018741F /* View */,
+				06208BAF22390A860018741F /* AppDelegate.swift */,
+				06D2155822673C7A0078AE58 /* NavigationViewController.swift */,
+				06208BB122390A860018741F /* InstructionsViewController.swift */,
+				06208BC122390D880018741F /* ConfigurationViewController.swift */,
+				06208BC322390E090018741F /* ReceivedDataViewController.swift */,
+				06208BB322390A860018741F /* Main.storyboard */,
+				06208BB622390A870018741F /* Assets.xcassets */,
+				06208BB822390A870018741F /* LaunchScreen.storyboard */,
+				06208BBB22390A870018741F /* Info.plist */,
+			);
+			path = AirPolution;
+			sourceTree = "<group>";
+		};
+		06208BC522391D0C0018741F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06208BC622391D270018741F /* PickerHandler.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		06208BC8223921F70018741F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				06208BCC223923120018741F /* Parser */,
+				06208BCB2239230B0018741F /* Receiver */,
+				06208BC92239223A0018741F /* DataReceiver.swift */,
+				06EDFB8B22426065002DEA54 /* ApiCallBuilder.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		06208BCB2239230B0018741F /* Receiver */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Receiver;
+			sourceTree = "<group>";
+		};
+		06208BCC223923120018741F /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				06D3654E225E069500B8FCC0 /* PollutionDataParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		06208BCD223926CA0018741F /* Dto */ = {
+			isa = PBXGroup;
+			children = (
+				06D2155A226745320078AE58 /* Optional */,
+				06AB35452254D04200554999 /* DataDto.swift */,
+				06AB35472254D1FF00554999 /* CurrentDto.swift */,
+				06AB35492254D25C00554999 /* WeatherDto.swift */,
+				06AB354B2254D26C00554999 /* PollutionDto.swift */,
+				06D3654C225DF15600B8FCC0 /* StatusDto.swift */,
+			);
+			path = Dto;
+			sourceTree = "<group>";
+		};
+		06208BD4223928770018741F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06208BCD223926CA0018741F /* Dto */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06D2155A226745320078AE58 /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				06D2155B226745690078AE58 /* ConcetrationInfoDto.swift */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06208BAB22390A850018741F /* AirPolution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06208BBE22390A870018741F /* Build configuration list for PBXNativeTarget "AirPolution" */;
+			buildPhases = (
+				06208BA822390A850018741F /* Sources */,
+				06208BA922390A850018741F /* Frameworks */,
+				06208BAA22390A850018741F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPolution;
+			productName = AirPolution;
+			productReference = 06208BAC22390A860018741F /* AirPolution.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06208BA422390A850018741F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = example;
+				TargetAttributes = {
+					06208BAB22390A850018741F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 06208BA722390A850018741F /* Build configuration list for PBXProject "AirPolution" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06208BA322390A850018741F;
+			productRefGroup = 06208BAD22390A860018741F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06208BAB22390A850018741F /* AirPolution */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06208BAA22390A850018741F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06208BBA22390A870018741F /* LaunchScreen.storyboard in Resources */,
+				06208BB722390A870018741F /* Assets.xcassets in Resources */,
+				06208BB522390A860018741F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06208BA822390A850018741F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06208BB222390A860018741F /* InstructionsViewController.swift in Sources */,
+				06208BB022390A860018741F /* AppDelegate.swift in Sources */,
+				06D3654F225E069500B8FCC0 /* PollutionDataParser.swift in Sources */,
+				06AB35482254D1FF00554999 /* CurrentDto.swift in Sources */,
+				06208BC422390E090018741F /* ReceivedDataViewController.swift in Sources */,
+				06208BC222390D880018741F /* ConfigurationViewController.swift in Sources */,
+				06D2155C226745690078AE58 /* ConcetrationInfoDto.swift in Sources */,
+				06AB354C2254D26C00554999 /* PollutionDto.swift in Sources */,
+				06EDFB8C22426065002DEA54 /* ApiCallBuilder.swift in Sources */,
+				06208BCA2239223A0018741F /* DataReceiver.swift in Sources */,
+				06208BC722391D270018741F /* PickerHandler.swift in Sources */,
+				06D3654D225DF15600B8FCC0 /* StatusDto.swift in Sources */,
+				06AB354A2254D25C00554999 /* WeatherDto.swift in Sources */,
+				06D2155922673C7A0078AE58 /* NavigationViewController.swift in Sources */,
+				06AB35462254D04200554999 /* DataDto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06208BB322390A860018741F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06208BB422390A860018741F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06208BB822390A870018741F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06208BB922390A870018741F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06208BBC22390A870018741F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06208BBD22390A870018741F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06208BBF22390A870018741F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirPolution/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirPolution;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06208BC022390A870018741F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirPolution/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirPolution;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06208BA722390A850018741F /* Build configuration list for PBXProject "AirPolution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06208BBC22390A870018741F /* Debug */,
+				06208BBD22390A870018741F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06208BBE22390A870018741F /* Build configuration list for PBXNativeTarget "AirPolution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06208BBF22390A870018741F /* Debug */,
+				06208BC022390A870018741F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06208BA422390A850018741F /* Project object */;
+}
